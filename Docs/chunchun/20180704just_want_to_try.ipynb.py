@@ -1,0 +1,1 @@
+print("chunchun is beautiful!")
