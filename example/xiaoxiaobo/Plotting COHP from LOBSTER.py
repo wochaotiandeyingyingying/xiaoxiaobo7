@@ -6,7 +6,7 @@ COHPCAR_path = "E:/Python/pymatgen-master/test_files/cohp/COHPCAR.lobster"
 cohpcar = Cohpcar(filename=COHPCAR_path)
 cdata = cohpcar.cohp_data
 cdata_processed = {}
-#测试上传是否成功用
+#测试上传是否成功
 for key in cdata:
     c = cdata[key]
     c["efermi"] = 0
